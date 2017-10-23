@@ -24,7 +24,7 @@ var router = express.Router();
 
 // test route to make sure everything is working (accessed at GET http://localhost:8080/api)
 router.get('/', function (req, res) {
-    res.json({ message: 'Welcome to our api!' });
+    res.json({ message: 'API Version 0.0.1' });
 });
 
 // more routes for our API will happen here
