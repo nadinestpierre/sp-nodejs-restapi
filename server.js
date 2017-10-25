@@ -107,6 +107,7 @@ bot.dialog('ShowHotelsReviews', function (session, args) {
 
 bot.dialog('Help', function (session) {
     session.endDialog('Hi! Try asking me things like \'search hotels in Seattle\', \'search hotels near LAX airport\' or \'show me the reviews of The Bot Resort\'');
+    console.log(session.message.text);
 }).triggerAction({
     matches: 'Help'
 });
