@@ -9,7 +9,7 @@ var spellService = require('./spell-service');
 // Setup Restify Server
 var server = restify.createServer();
 server.listen(process.env.port || process.env.PORT || 3978, function () {
-    console.log('%s is listening to %s', server.name);
+    console.log('%s is listening', server.name);
 });
 
 // Create connector and listen for messages
