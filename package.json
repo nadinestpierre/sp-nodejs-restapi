@@ -4,7 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -20,6 +20,10 @@
     "body-parser": "^1.18.2",
     "botbuilder": "^3.11.0",
     "cors": "^2.8.4",
-    "express": "^4.16.2"
+    "express": "^4.16.2",
+    "bluebird": "^3.4.7",
+    "dotenv-extended": "^1.0.4",
+    "request": "^2.79.0",
+    "restify": "^4.3.0"
   }
 }
